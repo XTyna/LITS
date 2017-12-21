@@ -1,0 +1,35 @@
+     <ul id="navbar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT SERVICES</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">PAGES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACTS</a></li>
+      </ul>
+
+
+address span {
+  display: inline-block;
+  vertical-align: middle;
+}
+p{
+  font-family:verdana;
+  font-size:12px;
+  line-height:20px;
+  text-indent:25px;
+  color:#000000;
+ }
+
+section.top-slider-section {
+background-image: url("https://livedemo00.template-help.com/wt_prod-12481/images/slider-slide-1-1920x1080.jpg");
+}
+h1 {
+  color: #000080;
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+}
+P {
+  padding-left: 20px;
+  padding-right: 10px;
+}
