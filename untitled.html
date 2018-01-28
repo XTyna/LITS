@@ -1,24 +1,23 @@
-<!DOCTYPE HTML>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Тег SELECT</title>
- </head>
- <body>  
- 
-  <form action="select1.php" method="post">
-   <p><select size="3" multiple name="hero[]">
-    <option disabled>Выберите героя</option>
-    <option value="Чебурашка">Чебурашка</option>
-    <option selected value="Крокодил Гена">Крокодил Гена</option>
-    <option value="Шапокляк">Шапокляк</option>
-    <option value="Крыса Лариса">Крыса Лариса</option>
-   </select></p>
-    <big>
-      <p><input type="submit" value="Отправить">
-    </p>
-    </big>
-  </form>
+<!DOCTYPE html>
+<html lang="en">
 
- </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="output" style="height: 410px;overflow: auto;">
+  </div>
+  <script>
+    for(var i =0 ; i < 100000; i++) {
+      console.log( i + Math.sqrt(i * 25));
+    }
+
+    console.log('Hello');
+
+  </script>
+</body>
+
 </html>
+// var i = 10; // var para = document.createElement('p'); // para.textContent = ; // output.appendChild(para);
