@@ -3,12 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style_css.css/css_maket1.css">
+  <link rel="stylesheet" type="text/css" href="style/css_maket1.css">
   <title>Constraction</title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="./script/map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoTh8SGqwiudkX5erYasWSUezZVHgT66I
+&callback=initMap"></script>
+  <script type="text/javascript" src="./script/up_button.js"></script>
 </head>
 
 <body>
-
   <header class="top-header">
     <div class="top-head">
       <div class="top-head-column">
@@ -17,7 +22,9 @@
             <a href="#" class="address-link">Address: 4578 Marmora Road, Glasgow, D04 89GR</a>
           </div>
           <div class="phones contact">
-            <a href="#" class="phones-link">(800) 123-0045; (800) 123-0045</a>
+
+            <a href="tel:(800) 123-0045" class="phones-link">(800) 123-0045</a>;
+            <a href="tel:(800) 123-0045">(800) 123-0045</a>
           </div>
         </address>
       </div>
@@ -52,7 +59,8 @@
           <div>
             <nav>
               <a href="#">HOME</a>
-              <a href="#">ABOUT SERVICES</a>
+              <a href="#">ABOUT</a>
+              <a href="#">SERVICES</a>
               <a href="#">PROJECTS</a>
               <a href="#">PAGES</a>
               <a href="#">BLOG</a>
@@ -64,7 +72,6 @@
       </div>
     </section>
   </header>
-
   <main>
     <section class="top-slider-section">
       <h1>FROM START TO FINISH</h1>
@@ -157,8 +164,8 @@
       <div class="contaner">
         <article class="history">
           <h3>
-              <span class="underlined">OUR</span> HISTORY
-            </h3>
+            <span class="underlined">OUR</span> HISTORY
+          </h3>
           <p class="subtitle our-h">OUR CONSTRUCTION COMPANY HAS BEEN FOUNDED 10 YEARS AGO, AT THE VERY PEAK OF THE BUILDING FRENZY IN THE US...</p>
           <p class="our-h"> Since then we've built hundreds of commercial, government and private buildings and facilities. It may not sound like a lot, but if you estimate the manpower, working hours, materials, planning and correlating that were all involved in completing each separate project, then our productivity is immense!</p>
           <button class="orange">READ MORE</button>
@@ -342,23 +349,26 @@
       </div>
     </section>
     <section class="recent-news-title">
-      <h4 class="news">RECENT NEWS</h4>
+      <h3 class="news">RECENT NEWS</h3>
       <div class="news">
+
         <article class="recent-news">
           <img src="https://livedemo00.template-help.com/wt_prod-12481/images/home-post-2-418x315.jpg" class="construction">
-          <h5>BIKE PARTS WAREHOUSE, DE</h5>
+          <h4>BIKE PARTS WAREHOUSE, DE</h4>
           <a href="#"><span class=red>Jan.20, 2017</span> by Brian Williamson</a>
           <p>Delaware proved to be a very friendly place to work at… While invited there for completing a mid-sized warehouse for…</p>
         </article>
+
         <article class="recent-news">
           <img src="https://livedemo00.template-help.com/wt_prod-12481/images/home-post-1-418x315.jpg" class="construction">
-          <h5>FUTURE PROOFING HOSPITALS</h5>
+          <h4>FUTURE PROOFING HOSPITALS</h4>
           <a href="https://www.templatemonster.com/ua/demo/66064.html"><span class="red">Jan.20, 2017</span> by Brian Williamson</a>
           <p>By improving the physical layout of hospitals and medical facilities, we can enhance and increase safety mechanisms, improve care, and…</p>
         </article>
+
         <article class="recent-news">
           <img src="https://livedemo00.template-help.com/wt_prod-12481/images/home-post-3-418x315.jpg" class="construction">
-          <h5>JOY HOTEL & CASINO</h5>
+          <h4>JOY HOTEL & CASINO</h4>
           <a href="#"><span class="red">Jan.20, 2017</span> by Brian Williamson</a>
           <p>This hotel & casino complex is our most recent completed building… The whole structure that took us 6 months to…</p>
         </article>
@@ -369,55 +379,80 @@
   <footer>
     <div class="wrapper">
       <div class="logo-wrapper">
-        <span class="logo">
+        <div class="logo">
           <a href="#"><img src="https://livedemo00.template-help.com/wt_prod-12481/images/logo-inverse-274x55.png"></a>
+        </div>
+        <p>  Our core values have been shaped over more than 10 years of delivering the finest construction services to our clients. They stood to the test of time and these principles remain our bedrock lynchpins. We never tried to cut on either quality, the pace of work or any other construction aspect. We stay true to our full promise of efficiency!</p>
+      </div>
+      <div class="footer-nav">
+        <span class="navigation">
+
+          <h3>NAVIGATION</h3>
+
+          <div>
+            <a href="#">Industry News</a>
+            <a href="#">Projects in Development</a>
+            <a href="#">Our Services</a>
+            <a href="#">Contacts</a>
+          </div>
         </span>
-          <p>Our core values have been shaped over more than 10 years of delivering the finest construction services to our clients. They stood to the test of time and these principles remain our bedrock lynchpins. We never tried to cut on either quality, the pace of work or any other construction aspect. We stay true to our full promise of efficiency!</p>
       </div>
 
-    <span class="navigation">
+      <div class="footer-adress">
+        <div class="vcard">
+          <h3>CONTACTS</h3>
+          <address>
+            Address 4578 Marmora Road, Glasgow, D04 89GR
+          </address>
 
-      <h5>NAVIGATION</h5>
+          <div class="phones">
 
-      <div>
-        <a href="#">Industry News</a>
-        <a href="#">Projects in Development</a>
-        <a href="#">Our Services</a>
-        <a href="#">Contacts</a>
-      </div>
-      </span>
-    <span class="vcard">
-      <address>Address 4578 Marmora Road, Glasgow, D04 89GR</address>
+            Phones: 
+            <a href="tel:(800) 123-0045">(800) 123-0045</a>,
+            <a href="tel:>(800) 123-0045">(800) 123-0045</a>;
+          </div>
+          <div class="email">
+            Email:
+            <a href="mailto:info@demolink.org">info@demolink.org</a>
+          </div>
 
-      <div>
-        Phones: 
-        <a href="tel:(800) 123-0045">(800) 123-0045</a>
-        <a href="tel:>(800) 123-0045">(800) 123-0045;</a>
+          <p>
+            We are open Mn-Fr: 10 am-8 pm
+          </p>
+        </div>
       </div>
-      <div>
-        Email
-        <a href="mailto:info@demolink.org">info@demolink.org</a>
+      <div class="footer-map">
+        <div class="map" id="map">
+          <!-- <img src="./icons/map.png" /> -->
+        </div>
       </div>
-
-      <div>
-        We are open Mn-Fr: 10 am-8 pm
-      </div>
-    </span>
-    <span class="map">
-    </span>
-    <span>
     </div>
-      <p>Real Estate 2017. All Rights Reserved.<a href="#">Terms of Use and Privacy Policy</a></p>
-    </span>
-    <span lens="social-links">
-      <a href="#"><img src=""></a> <!-- facebook -->
-      <a href="#"><img src=""></a> <!-- Twiter -->
-      <a href="#"><img src=""></a> <!-- Google+ -->
-      <a href="#"><imj src=""></a> <!-- vk -->
-      <a href="#"><imj src=""></a> <!-- youtube -->
-      <a href="#"><img src=""></a> <!-- Pintirest -->
-    </span>
-    <button class="positions-fixed-css"></button>
+    <div class="footer-end">
+      <div>
+        <p>
+          Real Estate 2017. All Rights Reserved.
+        </p>
+        <a href="#"> Terms of Use and Privacy Policy
+        </a>
+
+        <div class="social-links">
+
+          <a href="#"><img src="icons/facebook-logo.svg"></a>
+          <!-- facebook -->
+          <a href="#"><img src="icons/twitter-logo-silhouette.svg"></a>
+          <!-- Twiter -->
+          <a href="#"><img src="icons/google-plus-logo.svg"></a>
+          <!-- Google+ -->
+          <a href="#"><img src="icons/icon (1).svg"></a>
+          <!-- vimeo -->
+          <a href="#"><img src="icons/youtube-logo.svg"></a>
+          <!-- youtube -->
+          <a href="#"><img src="icons/pinterest-logo (1).svg"></a>
+          <!-- Pintirest -->
+        </div>
+      </div>
+    </div>
+    <button class="positions-fixed-css" id="toTop" >^</button>
   </footer>
 </body>
 
