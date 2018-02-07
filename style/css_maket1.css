@@ -50,6 +50,7 @@ p {
 .column > button {
   background: url("../icons/search.svg") no-repeat center left;
   background-size: 10px;
+  cursor: pointer;
 }
 
 
@@ -116,7 +117,6 @@ div.social-links a {
 }
 
 section.fixed {
-  width: 100%;
   min-height: 40px;
   margin: 0px auto;
   background-color: rgba(0, 0, 34, 0.7);
@@ -151,10 +151,11 @@ span.column {
 
 .column > div > nav > a {
 padding: 0 3px;
+transition: 0.5s all;
 }
 
-.column > div > nav > a:hover div {
-  background-color: black;
+.column > div > nav > a:hover {
+  color: #ff7109;
 }
 
 ul#navbar {
@@ -183,8 +184,6 @@ section.top-slider-section {
   margin: 5%;
 }
 
-
-
 button.top {
   background-size:auto ;
   color: white;
@@ -210,8 +209,8 @@ button.top:hover {
 div.under-top {
   width: 50%;
   color: white;
-
 }
+
 
 div.text {
   padding-right: 10px;
@@ -225,14 +224,19 @@ button {
   border: none;
   height: 16px;
   font-size: 10px;
+  border-radius: 2px;
 }
 
 button.under-top {
-
   color: black;
   background-color: white;
   margin: 0 auto;
-
+  cursor: pointer;
+  transition: 0.5s;
+}
+button.under-top:hover {
+  color: white;
+  background-color: black;
 }
 
 section.our-services {
@@ -315,7 +319,12 @@ article.services a {
   color: black;
   display: inline-block;
   margin: 0;
+  transition: 0.5s all;
 }
+article.services a:hover {
+  color: #ff7109;
+}
+
 article.services {
   flex: 1;
   padding: 10px;
@@ -340,7 +349,7 @@ article.ception {
   display: flex;
 }
 
-.managers-section h4 {
+.managers-section h3 {
   text-align: center;
   margin: 20px 0;
   color: black;
@@ -402,10 +411,17 @@ article.history h3 {
 
 article.history p.subtitle {
   color: black;
+  transition: 0.5s all;
 }
 
 article.history button.orange {
   text-align: left;
+  cursor: pointer;
+  transition: 0.5s all;
+  color: white;
+}
+article.history button.orange:hover {
+  background-color: black;
 }
 
 /* Section our-services */
@@ -450,7 +466,7 @@ main .red {
   text-align: center;
 }
 
-.menegers-item h5 {
+.managers-item h5 {
   text-align: center;
   margin: 10px 0 5px;
   font-weight: normal;
@@ -460,6 +476,7 @@ main .red {
 .managers a.name {
   color: #333;
   text-decoration: none;
+  transition: 0.5s all;
 }
 
 .managers a.name:hover {
@@ -486,6 +503,7 @@ h3.news {
 }
 .recent-news h4 {
   color: black;
+  transition: 0.5s all;
 }
 
 article.recent-news {
@@ -496,6 +514,7 @@ article.recent-news {
 
 .recent-news-title img {
   width: 100%;
+  margin-bottom: 15px;
 }
 
 section.indexes {
@@ -698,14 +717,12 @@ div.vcard h3 {
   color: white;
 }
 
-.email a {
+.email a,
+.phones a:hover,
+.recent-news h4:hover {
   color: #ff7109;
 }
 
-.phones a:hover {
-  color: #ff7109;
-  transition: 0.5s;
-}
 
 .footer-end,
 footer p,
@@ -713,6 +730,7 @@ footer a,
 div.vcard,
 footer div.phones a {
   color: #888;
+  transition: 0.5s;
 }
 
 footer > .wrapper > div {
@@ -737,8 +755,8 @@ footer .social-links {
 }
 
 .footer-end div > a:hover {
-    color: #ff7109;
-  transition: 0.5s;
+  color: #ff7109;
+  transition: 0.5s all;
 }
 
 #toTop {
@@ -757,6 +775,7 @@ footer .social-links {
   font-family: verdana;
   font-size: 20px;
   box-shadow: 0 0 10px #6f3800;
+  outline: none;
 }
 
 
