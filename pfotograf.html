@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="designer.css">
+  <title>DESIGNER</title>
+</head>
+<body>
+
+  <header>
+    <div class="header-wrapper">
+      <h1>
+        Light
+      </h1>
+      <div class="nav-head">
+        <!-- Desktop menu. Should be shown for 747px and above wide screens -->
+        <nav>
+          <a href="#">HOME <div class="arrow">></div></a>
+          <a href="#">PORTFOLIO <div class="arrow">></div></a>
+          <a href="#">PAGES <div class="arrow">></div></a>
+          <a href="#">SHORTCODES <div class="arrow">></div></a>
+          <a href="#">BLOG <div class="arrow">></div></a>
+          <a href="#">ABOUT ME</a>
+          <a href="#">CONTACT</a>
+
+        </nav>
+        <div id="mobile-nav-button">[-]</div>
+        <!-- Mobile/tablet menu. Should be visible for 747px and lower wide screens.-->
+        <nav class="mobile-navigation">
+          <a href="#">HOME <div class="arrow">></div></a>
+          <a href="#">PORTFOLIO <div class="arrow">></div></a>
+          <a href="#">PAGES <div class="arrow">></div></a>
+          <a href="#">SHORTCODES <div class="arrow">></div></a>
+          <a href="#">BLOG <div class="arrow">></div></a>
+          <a href="#">ABOUT ME</a>
+          <a href="#">CONTACT</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="top">
+    <div class="top-wrapper">
+      <h1 class="top-h1">
+        <div>I A</div>M <div class="">DESIGNER</div>
+      </h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt minus, molestias minima voluptates voluptas ad quae sunt consequuntur amet itaque</p>
+      <p>CONTACT ME <div> --> </div></p>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    // let isMobileVisible = false;
+    // const button = document.getElementById('mobile-nav-button');
+    // const mobileMenu = document.querySelector('.mobile-navigation');
+
+    // function buttonClickHandler() {
+    //   if(isMobileVisible) {
+    //     mobileMenu.style.display = 'block';
+    //   } else {
+    //     mobileMenu.style.display = 'none';
+    //   }
+
+    //   isMobileVisible = !isMobileVisible;
+
+    //   localStorage.setItem('isMobileVisible', 'isMobileVisible');
+    // }
+
+    // button.onclick = buttonClickHandler;
+
+
+    function Humen(name){
+      this.name = name;
+      this.surname = 'Lidak';
+    }
+    Humen.prototype.age = 25;
+    var Sasha = new Humen('Sasha');
+    console.log(Sasha);
+
+    let Khristina = new Humen('Khristina');
+    console.log(Khristina);
+    console.log(Khristina.age);
+  </script>
+
+
+
+</body>
+</html>
