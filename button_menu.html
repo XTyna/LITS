@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button>Push it</button>
+
+ <nav id='vision'>
+  <a href="#">HOME <div class="arrow">></div></a>
+  <a href="#">PORTFOLIO <div class="arrow">></div></a>
+  <a href="#">PAGES <div class="arrow">></div></a>
+  <a href="#">SHORTCODES <div class="arrow">></div></a>
+  <a href="#">BLOG <div class="arrow">></div></a>
+  <a href="#">ABOUT ME</a>
+  <a href="#">CONTACT</a>
+ </nav>
+
+ <ul>
+ 	<li>
+ 		<span>
+ 			Hello
+ 		</span>
+ 	</li>
+ 	<li>
+ 		<span>
+ 			World
+ 		</span>
+ 	</li>
+ </ul>
+
+
+<script>
+
+	document.querySelector('ul').onclick = function(event) {
+		this.style.color = 'red';
+	}
+
+	document.querySelector('span').onclick = function(event) {
+		event.stopPropagation();
+		alert(this.textContent);
+	}
+</script>
+
+</body>
+</html>
+
