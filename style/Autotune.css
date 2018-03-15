@@ -1,4 +1,6 @@
-html {
+html,
+body,
+div {
   font-size: 14px;
   font-family: ubunturegular, sans-serif;
 }
@@ -112,6 +114,7 @@ ul.language > li {
   justify-content: space-between;
 }
 
+.styled-select-filter,
 .styled-select {
   padding-left: 50px;
 }
@@ -136,7 +139,7 @@ select {
   box-shadow: none;
   color: darkgray;
   border: 1px solid darkgrey;
-  border-radius: 3px 0px 0px 3px;
+  border-radius: 0px;
   font-size: 16px;
   height: 46px;
   width: 200px;
@@ -146,10 +149,11 @@ select {
   background: url(../icons/down-arrow.svg) no-repeat right center;
   background-position: right 15px center;
   background-size: 15px;
+  margin: 2px;
 }
 
 div.container-1 {
-position: relative;
+  position: relative;
   width: 220px;
   height: 50px;
 }
@@ -177,7 +181,7 @@ position: relative;
   background: url(../icons/magnifying-glass.svg) no-repeat 5px center;
   background-color: #e60000;
   height: 44px;
-  width: 58px;
+  width: 44px;
   display: block;
   position: absolute;
   z-index: 1;
@@ -211,7 +215,6 @@ ul.main-manu {
   justify-content: space-around;
   height: 60px;
   background-color: black;
-
   align-items: center;
 }
 
@@ -225,11 +228,410 @@ ul.main-manu a:hover {
   color: white;
 }
 
-
-h1 {
+div.main-wrapper {
+  background: url("../icons/main-car.jpg") no-repeat center;
+  background-size:cover;
+  height: 580px;
+  width: 100%;
   font-family: ubuntubold;
+  color: white;
+  text-align: center;
+  padding: 7.4% 0 0;
+  background-attachment: fixed;
 }
 
+h1.main-text {
+  font-size: 58px;
+  letter-spacing: 0.04em;
+  padding-bottom:40px;
+  text-transform: uppercase;
+}
 
+.main-wrapper h3 {
+  font-size: 24px;
+  padding-top: 10px;
+  text-align: center;
+}
 
+div.main-text-little {
+  height: 50px;
+  width: 400px;
+  background: rgba(255,112,67,0.5);
+  margin: 0 auto;
+}
 
+.wrapper-filter {
+  z-index: 2;
+  position: relative;
+  height: 400px;
+  background: white;
+  margin: 100px 40px 0 40px;
+  padding: 15px;
+  color: black;
+}
+
+.line {
+  margin-left: -50px;
+  margin-top: 71px;
+  position: absolute;
+  border-top: 2px solid #f42121;
+  width: 78px;
+}
+
+strong {
+  font-weight: 900;
+  font-size: 34px;
+}
+
+.wrapper-filter h3 {
+  font: 300 34px 'rubiklight',sans-serif;
+  text-align: left;
+  padding:53px 58px 25px;
+}
+
+form {
+  color: gray;
+  display: flex;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+form:hover {
+  color: black;
+  transition: 0.2s;
+}
+
+.vehicle-choise {
+  display: flex;
+
+}
+
+.vehicle-choise > div {
+  min-width: 140px;
+  text-align: right;
+}
+
+input[type="radio" i] {
+  margin: 2px 15px;
+}
+.filter-manu {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+.money-conteiner,
+.styled-select-filter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.styled-select-filter > div,
+div.price {
+  margin-right: 10px;
+}
+
+.money-conteiner {
+  display: flex;
+}
+
+select.main-filter {
+  -webkit-appearance: none;
+  box-shadow: none;
+  color: darkgray;
+  border: 1px solid darkgrey;
+  border-radius: 0px;
+  font-size: 16px;
+  height: 46px;
+  width: 200px;
+  padding: 8px 16px;
+  outline: none;
+  position: relative;
+  background: url(../icons/down-arrow-copy.svg) no-repeat right center;
+  background-position: right 15px center;
+  background-size: 13px;
+  margin: 2px;
+  transition: 0.5s;
+}
+
+select.main-filter:hover {
+  background: url(../icons/down-arrow.svg) no-repeat right center;
+  background-size: 13px;
+  background-position: right 15px center;
+}
+
+.price-control {
+  padding-left: 16px;
+  padding-right: 16px;
+  -webkit-appearance: none;
+  box-shadow: none;
+  color: darkgray;
+  border: 1px solid darkgrey;
+  border-radius: 0px;
+  font-size: 16px;
+  height: 46px;
+  width: 99px;
+  margin-right: 2px;
+}
+
+button.show {
+  min-width: 150px;
+  border: 2px solid #e60000;
+  padding: 14px 22px;
+  font-size: 14px;
+  line-height: 1.286;
+  color: white;
+  background: #e60000;
+  transition: 0.5s;
+  float: right;
+  margin-right: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button.show:hover {
+  background: white;
+  color: #e60000;
+}
+p.products {
+  color: gray;
+  text-align: right;
+  margin: 10px 25px;
+}
+
+.result {
+  display: inline-block;
+  float: right;
+}
+
+/* Section popular-categories*/
+
+.popular-categories {
+  background: #f2f4f7;
+  padding-top: 190px;
+}
+
+.popular-categories > article {
+  margin: 0 25px 25px 0;
+}
+
+div.top-popular-categories {
+  position: relative;
+  color: #101116;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2.red-line::before {
+  content: " ";
+  position: absolute;
+  width: 40px;
+  border-bottom: 2px solid #e60000;
+  padding-top: 22px;
+  left: 40px;
+
+}
+ h2.red-line {
+  padding-left: 50px;
+  text-transform: uppercase;
+  font: 300 34px/1.3 "rubiklight", sans-serif;
+}
+
+ a.see-all {
+    padding-top: 20px;
+    background: url(../icons/right-arrow.svg) no-repeat center;
+    background-position: right 15px center;
+    background-size: 10px;
+    text-align: center;
+    width: 220px;
+    height: 35px;
+    color: #778191;
+    display: table-footer-group;
+}
+
+a.see-all:hover {
+  color: #e60000;
+}
+
+div.wrapper-details {
+  margin: 0 35px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+div.string,
+div.air-wrapper,
+div.accessories-wrapper {
+  display: flex;
+}
+
+div.wrapper-details > article {
+  margin: 1px;
+  width: calc(33% - 2px);
+  height: 290px;
+  background: white;
+
+}
+div.wrapper-details > article:hover {
+  box-shadow: 0 3px 20px 0 rgba(31,33,43,0.2);
+}
+
+.details > h3 {
+  margin-bottom: 30px;
+  padding-top: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.details > h3:hover {
+  color: #e60000;
+}
+
+.details {
+  width: 100%;
+}
+
+div.details-icons-first {
+  background-position: right 30px center;
+  width: 50%;
+  height: 100px;
+  background: url(../icons/category-1.jpg) no-repeat center;
+  background-size: 130px;
+  cursor: pointer;
+}
+
+div.details-icons-second {
+  background-position: right 30px center;
+  width: 50%;
+  height: 100px;
+  background: url(../icons/category-2.jpg) no-repeat center;
+  background-size: 130px;
+  cursor: pointer;
+}
+
+div.details-icons-third {
+  background-position: right 30px center;
+  width: 50%;
+  height: 100px;
+  background: url(../icons/category-3.jpg) no-repeat center;
+  background-size: 130px;
+  cursor: pointer;
+}
+
+div.details-icons-fourth {
+  background-position: right 30px center;
+  width: 50%;
+  height: 100px;
+  background: url(../icons/category-4.jpg) no-repeat center;
+  background-size: 130px;
+  cursor: pointer;
+}
+
+div.details-icons-fifth {
+  background-position: right 30px center;
+  width: 50%;
+  height: 100px;
+  background: url(../icons/category-5.jpg) no-repeat center;
+  background-size: 130px;
+  cursor: pointer;
+}
+
+div.details-icons-sixth {
+  background-position: right 30px center;
+  width: 50%;
+  height: 100px;
+  background: url(../icons/category-6.jpg) no-repeat center;
+  background-size: 130px;
+  cursor: pointer;
+  }
+
+div.summery {
+  width: 45%;
+}
+
+div.summery li {
+  list-style-type: none;
+}
+
+ul.first-list a {
+  font-size: 14px;
+  line-height: 25px;
+  color: rgb(149, 149, 149);
+  transition: 0.5s all ease;
+}
+
+ul.first-list a:hover {
+  color: black;
+}
+
+.view-all {
+  padding-right: 35px;
+  background: url(../icons/right-arrow.svg) no-repeat right;
+  background-position: right 15px center;
+  background-size: 10px;
+  color: rgb(149, 149, 149);
+  line-height: 50px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  font: 300 14px 'rubiklight',sans-serif; 
+}
+
+.view-all:hover {
+  color: #e60000;
+}
+
+/* Section: top-brands */
+
+.top-brands {
+  background: #f2f4f7;
+  padding: 90px 25px 0 0;
+}
+
+div.top-popular-brands {
+  position: relative;
+  color: #101116;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+article.main-brands {
+padding-bottom: 15px;
+
+}
+
+article.top-brand-icons {
+padding: 0 15px 90px 40px;
+}
+
+article.top-brand-icons > ul {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article.top-brand-icons li {
+  list-style: none;
+  width: calc(16.6% - 2px);
+  margin: 1px;
+  background-color: white;
+  padding: 10px 0px
+}
+
+article.top-brand-icons img {
+  background: white;
+  padding: 10px 47px;
+  background-position: center;
+  width: 50%;: 1px;
+}
+
+article.top-brand-icons li:hover {
+box-shadow: rgba(31, 33, 43, 0.2) 0px 3px 20px 0px;
+}

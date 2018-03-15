@@ -6,10 +6,20 @@
     font-style: normal;
 
 }
+
 @font-face {
     font-family: 'ubuntubold';
     src: url('../font/ubuntu/ubuntu-bold-webfont.woff2') format('woff2'),
          url('../font/ubuntu/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubiklight';
+    src: url('../font/rubik/rubik-light-webfont.woff2') format('woff2'),
+         url('../font/rubik/rubik-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

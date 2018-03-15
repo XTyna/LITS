@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style/Autotune.css">
   <link rel="stylesheet" type="text/css" href="style/font.css">
-
   <title>Autotune</title>
 </head>
 
@@ -69,11 +68,11 @@
           </div>
         </article>
         <article class="under-top-buttons">
-          <div class="option"><img src='./icons/avatar.svg'> 
+          <div class="option"><img src='./icons/avatar.svg'>
           </div>
-          <div class="option"><img src='./icons/heart.svg'> 
+          <div class="option"><img src='./icons/heart.svg'>
           </div>
-          <div class="option"><img src='./icons/shopping-cart.svg'> 
+          <div class="option"><img src='./icons/shopping-cart.svg'>
           </div>
         </article>
       </div>
@@ -93,9 +92,369 @@
     </section>
     <section class="main">
       <div class="main-wrapper">
-        <h1>FAVORITE PRODUCT DISCOUNT</h1>
-        <h3>OUR AUTO PARTS FOR SALE</h3>
+        <div>
+          <h1 class="main-text">fevorite product discount
+          </h1>
+        </div>
+        <div class="main-text-little">
+          <h3>OUR AUTO PARTS FOR SALE</h3>
+        </div>
+        <article class="filter">
+          <div class="wrapper-filter">
+            <div>
+            <div class='line'></div>
+            <h3>
+              <strong>SEARCH</strong>
+              FROM OVER 1 MILLION PRODUCTS
+            </h3>
+            <div class="vehicle-choise">
+              <div>
+                Vehicle
+              </div>
+              <form action="/my-endpoind">
+                <input type="radio" name="gender" value="male" checked> Car (14)
+                <br>
+                <input type="radio" name="gender" value="female"> Trac (6)
+                <br>
+              </form>
+            </div>
+            <article class="filter-manu">
+              <div class="filter-manu-column">
+                <div class="styled-select-filter slate">
+                  <div>
+                    Manufacturer
+                  </div>
+                  <select class="main-filter">
+                    <option>--</option>
+                    <option>--Original(13)</option>
+                    <option>--Analogue(7)</option>
+                  </select>
+                </div>
+                <div class="styled-select-filter slate">
+                  <div>
+                    Parts type
+                  </div>
+                  <select class="main-filter">
+                    <option>--</option>
+                    <option>Accessories(20)</option>
+                    <option>Body Pats(20)</option>
+                    <option>Body Electrical(20)</option>
+                    <option>Brakes(20)</option>
+                    <option>Car Care</option>
+                    <option>Climate Control(20)</option>
+                    <option>Clutches(20)</option>
+                    <option>Driveshefts&Axles</option>
+                    <option>Transmission</option>
+                  </select>
+                </div>
+              </div>
+              <div class="filter-manu-column">
+                <div class="styled-select-filter slate">
+                  <div>
+                    Make
+                  </div>
+                  <select class="main-filter">
+                    <option>--</option>
+                    <option>Opel(1)</option>
+                    <option>Audi(3)</option>
+                    <option>Volkswagen(2)</option>
+                    <option>Lamborghini(1)</option>
+                    <option>Ford(3)</option>
+                    <option>Peugeot(1)</option>
+                    <option>Toyota(2))</option>
+                    <option>BMW(2)</option>
+                  </select>
+                </div>
+                <div class="styled-select-filter slate">
+                  <div>
+                    Model
+                  </div>
+                  <select class="main-filter">
+                    <option>--</option>
+                    <option>X5(1)</option>
+                    <option>X6(1)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="filter-manu-column">
+                <div class="styled-select-filter slate">
+                  <div>
+                    Condition
+                  </div>
+                  <select class="main-filter">
+                    <option>--</option>
+                    <option>New(1)</option>
+                    <option>Used(1)</option>
+                  </select>
+                </div>
+                <div class="money-conteiner">
+                  <div class="price">Price</div>
+                  <div class="money">
+                    <input class="price-control" data-type="price" data-element-type="input" data-type-value="from" name="price-range" value="" autocomplete="off" placeholder="from ($)">
+                  </div>
+                  <div class="money">
+                    <input class="price-control" data-type="price" data-element-type="input" data-type-value="to" name="price-range" value="" autocomplete="off" placeholder="to ($)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="result">
+              <button class="show">Show</button>
+              <p class="products">
+                <span class="count">0</span>
+                Products
+              </p>
+            </div>
+            </div>
+          </article>
+        </article>
+    </section>
+    <section class="popular-categories">
+      <article>
+        <div class="top-popular-categories">
+          <h2 class="red-line">
+            <strong>Popular</strong> Categories
+          </h2>
+          <a href="#" class="see-all">see all categories</a>
+        </div>
+      </article>
+      <div class="wrapper-details">
+
+          <article class="first">
+            <div class="details">
+              <h3>
+                AIR, FUEL, EMISSION & EXHAUST
+              </h3>
+              <div class="air-wrapper">
+              <div class="details-icons-first"></div>
+                <div class="summery">
+                  <ul class="first-list">
+                    <li>
+                      <a href="#">Air Filters & Related</a>
+                    </li>
+                    <li>
+                      <a href="#">Carburetion</a>
+                    </li>
+                    <li>
+                      <a href="#">Emission</a>
+                    </li>
+                    <li>
+                      <a href="#">Exhaust</a>
+                    </li>
+                    <li>
+                      <a href="#">Fuel & Oil Filters</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="view-all">VIEW ALL</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="second">
+            <div class="accessories details">
+              <h3>
+                ACCESSORIES & INTERIOR
+              </h3>
+              <div class="accessories-wrapper">
+                <div class="details-icons-second"></div>
+                <div class="summery">
+                  <ul class="first-list">
+                    <li>
+                      <a href="#">Custom Grilles</a>
+                    </li>
+                    <li>
+                      <a href="#">Body Kits</a>
+                    </li>
+                    <li>
+                      <a href="#">Off-Road Bumpers</a>
+                    </li>
+                    <li>
+                      <a href="#">Bed Accessories</a>
+                    </li>
+                    <li>
+                      <a href="#">Grille Guards</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="view-all">view all</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="third">
+            <div class="batteries details">
+              <h3>
+                BATTERIES, ELECTRICAL & WIRING
+              </h3>
+              <div class="accessories-wrapper">
+                <div class="details-icons-third"></div>
+                <div class="summery">
+                  <ul class="first-list">
+                    <li>
+                      <a href="#">Air Bag System</a>
+                    </li>
+                    <li>
+                      <a href="#">Batteries</a>
+                    </li>
+                    <li>
+                      <a href="#">Battery Components</a>
+                    </li>
+                    <li>
+                      <a href="#">Charging System</a>
+                    </li>
+                    <li>
+                      <a href="#">Electrical Connectors</a>
+                    </li>
+                  </ul>
+
+                  <a href="#" class="view-all">view all</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="fourth">
+            <div class="body details">
+              <h3>
+                BODY PARTS
+              </h3>
+            </div>
+            <div class="accessories-wrapper">
+                <div class="details-icons-fourth"></div>
+                <div class="summery">
+                  <ul class="first-list">
+                    <li>
+                      <a href="#">Front Bumpers</a>
+                    </li>
+                    <li>
+                      <a href="#">Bonnet Hoods</a>
+                    </li>
+                    <li>
+                      <a href="#">Fender Panels</a>
+                    </li>
+                    <li>
+                      <a href="#">Back Door Parts</a>
+                    </li>
+                    <li>
+                      <a href="#">Window Shields</a>
+                    </li>
+                  </ul>
+
+                  <a href="#" class="view-all">view all</a>
+                </div>
+              </div>
+          </article>
+          <article class="fifth">
+            <div class="lighting details">
+              <h3>
+                LIGHTING & ELECTRONICS
+              </h3>
+            </div>
+            <div class="accessories-wrapper">
+              <div class="details-icons-fifth"></div>
+              <div class="summery">
+                <ul class="first-list">
+                  <li>
+                    <a href="#">Headlights</a>
+                  </li>
+                  <li>
+                    <a href="#">Tail Lights</a>
+                  </li>
+                  <li>
+                    <a href="#">Side Mirrors</a>
+                  </li>
+                  <li>
+                    <a href="#">Engine Computer</a>
+                  </li>
+                  <li>
+                    <a href="#">Power Window Switches</a>
+                  </li>
+                </ul>
+                <a href="#" class="view-all">view all</a>
+              </div>
+            </div>
+          </article>
+          <article class="sixth">
+            <div class="lighting details">
+              <h3>
+                COOLING & HEATING
+              </h3>
+            </div>
+            <div class="accessories-wrapper">
+              <div class="details-icons-sixth"></div>
+              <div class="summery">
+                <ul class="first-list">
+                  <li>
+                    <a href="#">Accumulators & Driers</a>
+                  </li>
+                  <li>
+                    <a href="#">Clutches & Compressors</a>
+                  </li>
+                  <li>
+                    <a href="#">Tools, Hardware</a>
+                  </li>
+                  <li>
+                    <a href="#">Water Pumps</a>
+                  </li>
+                  <li>
+                    <a href="#">Cooling Fans</a>
+                  </li>
+                </ul>
+                <a href="#" class="view-all">view all</a>
+              </div>
+            </div>
+          </article>
       </div>
+    </section>
+    <section class="top-brands">
+      <article class="main-brands">
+        <div class="top-popular-brands">
+          <h2 class="red-line">
+            <strong>Top</strong> Brands
+          </h2>
+          <a href="#" class="see-all">see all brands</a>
+        </div>
+      </article>
+      <article class="top-brand-icons">
+        <ul>
+          <li>
+            <a href="#"><img src="icons/1-manufacturers.jpg"></a>
+           </li>
+           <li>
+            <a href="#"><img src="icons/2-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/3-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/4-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/5-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/6-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/7-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/8-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/9-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/10-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/11-manufacturers.jpg"></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/4-manufacturers.jpg"></a>
+          </li>
+        </ul>
+      </article>
     </section>
   </header>
 </body>
