@@ -22,5 +22,12 @@
          url('../font/rubik/rubik-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'rubikRegular';
+    src: url('../font/rubik/rubik-regular-webfont.woff2') format('woff2'),
+         url('../font/rubik/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
