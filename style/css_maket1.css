@@ -27,7 +27,7 @@ p {
   /*  Section : header- top-header    */
 
 .address-link {
-  background: url("../icons/telephone.svg") no-repeat center left;
+  background: url("../icons/placeholder.svg") no-repeat center left;
   padding-left: 10px;
   background-size: 10px;
 }
@@ -37,7 +37,7 @@ p {
 }
 
 .phones-link {
-  background: url("../icons/placeholder.svg") no-repeat center left;
+  background: url("../icons/telephone.svg") no-repeat center left;
   padding-left: 10px;
   background-size: 10px;
   color: white;
