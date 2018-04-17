@@ -53,6 +53,7 @@ img.top {
   font-size: small;
   color: black;
   margin-left: 7px;
+  font-family: verdana;
 }
 
 ul.currency li {
@@ -98,7 +99,7 @@ ul.language>li {
 
 a.see-all::after {
   content: " ";
-  background: url(../icons/right-arrow.svg) no-repeat center;
+  background: url(../Autotune-icons/right-arrow.svg) no-repeat center;
   background-size: 9px;
   padding-left: 35px;
   margin: 0 auto;
@@ -154,7 +155,7 @@ select {
   padding: 8px 16px;
   outline: none;
   position: relative;
-  background: url(../icons/down-arrow.svg) no-repeat right center;
+  background: url(../Autotune-icons/down-arrow.svg) no-repeat right center;
   background-position: right 15px center;
   background-size: 15px;
   margin: 0px;
@@ -186,7 +187,7 @@ div.container-1 {
 }
 
 .magnifying-glass {
-  background: url(../icons/magnifying-glass.svg) no-repeat 5px center;
+  background: url(../Autotune-icons/magnifying-glass.svg) no-repeat 5px center;
   background-color: #e60000;
   height: 44px;
   width: 44px;
@@ -272,7 +273,7 @@ ul.top-main-menu > li:hover::after {
 
 a.first-top-main-menu::after {
   content: " ";
-  background: url("../icons/expand-button.svg") no-repeat center;
+  background: url("../Autotune-icons/expand-button.svg") no-repeat center;
   width: 10px;
   height: 10px;
   background-size: 9px;
@@ -325,6 +326,7 @@ div.body-parts-second {
   margin-left: 3px;
   transition: .5s;
   left: 100%;
+  transition-delay: 
 }
 
 li.first-body-parts > div.body-parts-second {
@@ -377,7 +379,7 @@ li.main-menu-options div.accessories-submenu .second-submenu a:hover {
 
 li.first-body-parts > a::after {
   content: " ";
-  background: url(../icons/right-arrow.svg) no-repeat center;
+  background: url(../Autotune-icons/right-arrow.svg) no-repeat center;
   background-size: 9px;
   padding-left: 70px;
   margin: 0 auto;
@@ -395,7 +397,7 @@ li.first-body-parts a:hover::after {
 /*  Section:  main  */
 
 div.main-wrapper {
-  background: url("../icons/main-car.jpg") no-repeat center;
+  background: url("../Autotune-icons/main-car.jpg") no-repeat center;
   background-size: cover;
   height: 680px;
   width: 100%;
@@ -512,7 +514,7 @@ select.main-filter {
   padding: 8px 16px;
   outline: none;
   position: relative;
-  background: url(../icons/down-arrow-copy.svg) no-repeat right center;
+  background: url(../Autotune-icons/down-arrow-copy.svg) no-repeat right center;
   background-position: right 15px center;
   background-size: 13px;
   margin: 2px;
@@ -520,7 +522,7 @@ select.main-filter {
 }
 
 select.main-filter:hover {
-  background: url(../icons/down-arrow.svg) no-repeat right center;
+  background: url(../Autotune-icons/down-arrow.svg) no-repeat right center;
   background-size: 13px;
   background-position: right 15px center;
 }
@@ -535,7 +537,7 @@ select.main-filter:hover {
   border-radius: 0px;
   font-size: 16px;
   height: 46px;
-  width: 65px;
+  width: 99px;
   margin-right: 2px;
 }
 
@@ -622,7 +624,7 @@ a.see-all {
 
 a.see-all::after {
   content: " ";
-  background: url(../icons/right-arrow.svg) no-repeat center;
+  background: url(../Autotune-icons/right-arrow.svg) no-repeat center;
   background-size: 9px;
   padding-left: 35px;
   margin: 0 auto;
@@ -675,7 +677,7 @@ div.details-icons-first {
   background-position: right 30px center;
   width: 50%;
   height: 100px;
-  background: url(../icons/category-1.jpg) no-repeat center;
+  background: url(../Autotune-icons/category-1.jpg) no-repeat center;
   background-size: 130px;
   cursor: pointer;
 }
@@ -684,7 +686,7 @@ div.details-icons-second {
   background-position: right 30px center;
   width: 50%;
   height: 100px;
-  background: url(../icons/category-2.jpg) no-repeat center;
+  background: url(../Autotune-icons/category-2.jpg) no-repeat center;
   background-size: 130px;
   cursor: pointer;
 }
@@ -693,7 +695,7 @@ div.details-icons-third {
   background-position: right 30px center;
   width: 50%;
   height: 100px;
-  background: url(../icons/category-3.jpg) no-repeat center;
+  background: url(../Autotune-icons/category-3.jpg) no-repeat center;
   background-size: 130px;
   cursor: pointer;
 }
@@ -702,7 +704,7 @@ div.details-icons-fourth {
   background-position: right 30px center;
   width: 50%;
   height: 100px;
-  background: url(../icons/category-4.jpg) no-repeat center;
+  background: url(../Autotune-icons/category-4.jpg) no-repeat center;
   background-size: 130px;
   cursor: pointer;
 }
@@ -711,7 +713,7 @@ div.details-icons-fifth {
   background-position: right 30px center;
   width: 50%;
   height: 100px;
-  background: url(../icons/category-5.jpg) no-repeat center;
+  background: url(../Autotune-icons/category-5.jpg) no-repeat center;
   background-size: 130px;
   cursor: pointer;
 }
@@ -720,7 +722,7 @@ div.details-icons-sixth {
   background-position: right 30px center;
   width: 50%;
   height: 100px;
-  background: url(../icons/category-6.jpg) no-repeat center;
+  background: url(../Autotune-icons/category-6.jpg) no-repeat center;
   background-size: 130px;
   cursor: pointer;
 }
@@ -750,7 +752,7 @@ ul.first-list a:hover {
 
 .view-all {
   padding-right: 35px;
-  background: url(../icons/right-arrow.svg) no-repeat right;
+  background: url(../Autotune-icons/right-arrow.svg) no-repeat right;
   background-position: right 15px center;
   background-size: 10px;
   color: rgb(149, 149, 149);
@@ -819,7 +821,7 @@ article.top-brand-icons li:hover {
 /*  Sections: hot-deals */
 
 .hot-deals {
-  background: url("../icons/prslider-bg.jpg") no-repeat center;
+  background: url("../Autotune-icons/prslider-bg.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -846,6 +848,7 @@ article.top-brand-icons li:hover {
   outline: none;
   transition: 0.5s;
   box-shadow: 0 0 0px 0px transparent;
+  font-family: verdana;
 }
 
 .switches:hover {
@@ -864,7 +867,7 @@ article.top-brand-icons li:hover {
 }
 
 div.car-seat-icon {
-  background: url('../icons/119-large_default.jpg') no-repeat center;
+  background: url('../Autotune-icons/119-large_default.jpg') no-repeat center;
   width: 350px;
   height: 350px;
   background-size: cover;
@@ -1094,17 +1097,17 @@ article.detail-icon-center {
 
 
 .main-icon-detail-first {
-  background: url("../icons/108-home_default.jpg") no-repeat center;
+  background: url("../Autotune-icons/108-home_default.jpg") no-repeat center;
   background-size: cover;
 }
 
 .main-icon-detail-second {
-  background: url("../icons/102-home_default.jpg") no-repeat center;
+  background: url("../Autotune-icons/102-home_default.jpg") no-repeat center;
   background-size: cover;
 }
 
 .main-icon-detail-third {
-  background: url("../icons/119-large_default.jpg") no-repeat center;
+  background: url("../Autotune-icons/119-large_default.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -1114,15 +1117,15 @@ article.detail-icon-center {
 
 
 .detail-icon:hover .main-icon-detail-first {
-  background-image: url("../icons/110-home_default.jpg");
+  background-image: url("../Autotune-icons/110-home_default.jpg");
 }
 
 .detail-icon:hover .main-icon-detail-second {
-  background-image: url("../icons/106-home_default.jpg");
+  background-image: url("../Autotune-icons/106-home_default.jpg");
 }
 
 .detail-icon:hover .main-icon-detail-third {
-  background-image: url("../icons/chaer.jpg");
+  background-image: url("../Autotune-icons/chaer.jpg");
 }
 
 .moving-part img {
@@ -1244,31 +1247,31 @@ article.first-part {
 
 .first-part-img>a {
   height: 340px;
-  background: url(../icons/9-home.jpg) no-repeat center;
+  background: url(../Autotune-icons/9-home.jpg) no-repeat center;
   background-size: 140%;
 }
 
 .second-part-img-one>a {
   height: 160px;
-  background: url(../icons/7-home.jpg) no-repeat center;
+  background: url(../Autotune-icons/7-home.jpg) no-repeat center;
   background-size: 140%;
 }
 
 .second-part-img-two>a {
   height: 160px;
-  background: url(../icons/8-home.jpg) no-repeat center;
+  background: url(../Autotune-icons/8-home.jpg) no-repeat center;
   background-size: 140%;
 }
 
 .second-part-img-three>a {
   height: 160px;
-  background: url(../icons/5-home.jpg) no-repeat center;
+  background: url(../Autotune-icons/5-home.jpg) no-repeat center;
   background-size: 140%;
 }
 
 .second-part-img-four>a {
   height: 160px;
-  background: url(../icons/6-home.jpg) no-repeat center;
+  background: url(../Autotune-icons/6-home.jpg) no-repeat center;
   background-size: 140%;
 }
 
@@ -1371,7 +1374,7 @@ div.post {
 button.airplane {
   width: 46px;
   height: 46px;
-  background: red url(../icons/paper-plane.svg) no-repeat center;
+  background: red url(../Autotune-icons/paper-plane.svg) no-repeat center;
   background-size: 23px;
   border-style: none;
   cursor: pointer;
@@ -1462,7 +1465,7 @@ address.footer-address:hover {
   transition: 0.5s;
 }
 
-.soshel-lings {
+.social-links {
   display: flex;
   margin-top: 30px;
 }
@@ -1472,7 +1475,7 @@ address.footer-address:hover {
   width: 17px;
 }
 
-.soshel-lings img {
+.social-links img {
   height: 14px;
   width: 14px;
   margin: 15px;
@@ -1496,7 +1499,7 @@ address.footer-address:hover {
 
 .filter-footer::before {
   content: " ";
-  background-image: url(../icons/right-arrow-black.svg);
+  background-image: url(../Autotune-icons/right-arrow-black.svg);
   position: relative;
   width: 9px;
   height: 9px;
